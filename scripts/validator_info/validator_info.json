@@ -1,26 +1,32 @@
 [
   {
     "chain_name": "juno",
+    "chain_id": "juno",
     "validator_address": "junovaloper1x8u2ypdr35802tjyjqyxan8x85fzxe6sk0qmh8"
   },
   {
     "chain_name": "jackal",
+    "chain_id": "jkl",
     "validator_address": "jklvaloper1p9vt93vk6jzc0hlw7cywzh7tdc6t48xen7ceyl"
   },
   {
     "chain_name": "rebus",
+    "chain_id": "rebus",
     "validator_address": "rebusvaloper1y472rsstv8lwcevn96m78ucmz7szapmk9xj8f6"
   },
   {
     "chain_name": "teritori",
+    "chain_id": "tori",
     "validator_address": "torivaloper16zqd7zvg2tpzp0rcfr3ky33dwunkprrf85fq06"
   },
   {
     "chain_name": "chihuahua",
+    "chain_id": "chihuahua",
     "validator_address": "chihuahuavaloper1tzk3kzjy7fj4w37hm5v48c2t8vvgukzcqgkz8k"
   },
   {
     "chain_name": "persistence",
+    "chain_id": "persistence",
     "validator_address": "persistencevaloper1c386cr9kzxs83h60qsuwyv8f0gnl2y47t744sq"
   }
 ]

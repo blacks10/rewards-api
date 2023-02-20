@@ -12,7 +12,7 @@ from cosmpy.protos.cosmwasm.wasm.v1.query_pb2 import QuerySmartContractStateRequ
 from scripts.client import get_chain_info, get_network_config_args, LedgerClientV2
 from scripts.costants import STAKING_CONTRACT
 
-rev_share_folder = Path(__file__).parent / "rev_share_json"
+rev_share_folder = Path(__file__).parent / "rev_share_folder"
 
 
 # rev share formula
@@ -78,8 +78,8 @@ def compute_rev_share(total_rewards: int, chain_name: str):
             stakers_dict = {
                 "address": address,
                 # "balance": balance,
-                "reward": str(
-                    (int(user_staked) / int(total_staked)) * int(total_rewards)
+                "amount": str(
+                    int((int(user_staked) / int(total_staked)) * int(total_rewards))
                 ),
             }
             stakers.append(stakers_dict)
