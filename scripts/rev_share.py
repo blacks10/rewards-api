@@ -8,6 +8,8 @@ import click
 import tenacity
 from loguru import logger
 from cosmpy.aerial.config import NetworkConfig
+from tqdm import tqdm
+
 from scripts.client import LedgerClient
 from scripts.utils import get_chain_info, get_network_config_args
 from scripts.costants import STAKING_CONTRACT
@@ -42,14 +44,16 @@ def compute_rev_share(total_rewards: int, chain_name: str):
 
         # USERS STAKED
         resp_all_accounts_kleo = client.rest_client.get(
-            f"/cosmwasm/wasm/v1/contract/{STAKING_CONTRACT}/state"
+            f"/cosmwasm/wasm/v1/contract/{STAKING_CONTRACT}/state?pagination.limit=10000"
         )
         encoded_resp = json.loads(resp_all_accounts_kleo.decode("utf-8"))
+        logger.info(f"Loaded all staking users.")
+        logger.info(f"Start revenue computation..")
 
-        for model in encoded_resp["models"]:
-            address_long = bytes.fromhex((model["key"])).decode("utf-8")[2:]
-            if address_long.startswith("staked"):
-                balance = base64.b64decode(model["value"]).decode("utf-8").strip('"')
+        for model in tqdm(encoded_resp["models"]):
+            address_long = bytes.fromhex((model["key"])).decode("utf-8", errors="ignore")[2:]
+            if address_long.startswith("staked") and not "changelog" in address_long:
+                # balance = base64.b64decode(model["value"]).decode("utf-8").strip('"')
                 address = address_long[15:]
 
                 res_user_staked_at_height_dict = (
