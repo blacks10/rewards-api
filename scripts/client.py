@@ -1,16 +1,25 @@
+import json
+from functools import partial
+
 import requests
-from cosmpy.aerial.config import NetworkConfig
+from cosmpy.common.utils import json_encode
+from cosmpy.protos.cosmwasm.wasm.v1.query_pb2 import QuerySmartContractStateRequest
+from tenacity import retry
+from cosmpy.aerial.client import LedgerClient as BaseLedgerClient, NetworkConfig
 from cosmpy.aerial.urls import Protocol, parse_url
-from cosmpy.aerial.client import LedgerClient
 from cosmpy.mint.rest_client import MintRestClient
 from cosmpy.common.rest_client import RestClient
 from cosmpy.cosmwasm.rest_client import CosmWasmRestClient
+from cosmpy.protos.cosmos.staking.v1beta1.query_pb2 import (
+    QueryValidatorDelegationsRequest,
+    QueryValidatorRequest,
+)
 from cosmpy.staking.rest_client import StakingRestClient
+from requests import RequestException
+from tenacity import stop_after_delay
 
-from scripts.costants import COSMOS_DIR_API, COSMOS_DIR_REST_PROXY
 
-
-class LedgerClientV2(LedgerClient):
+class LedgerClient(BaseLedgerClient):
     def __init__(self, cfg: NetworkConfig):
         super().__init__(cfg)
 
@@ -29,31 +38,43 @@ class LedgerClientV2(LedgerClient):
     def rest_client(self):
         return self._rest_client
 
+    @retry(stop=stop_after_delay(10))
+    def query_validator(self, validator_address: str):
+        req_validator = QueryValidatorRequest(validator_addr=validator_address)
+        return self.staking.Validator(req_validator)
 
-def get_chain_info(chain):
-    url = f"{COSMOS_DIR_API}/{chain}"
-    resp = requests.get(url)
-    resp.raise_for_status()
+    @retry(stop=stop_after_delay(10))
+    def query_validator_delegations(
+        self, validator_address: str, pagination_limit: int
+    ):
+        req_delegators = QueryValidatorDelegationsRequest(
+            validator_addr=validator_address, pagination={"limit": pagination_limit}
+        )
+        return self.staking.ValidatorDelegations(req_delegators)
 
-    return resp.json()
+    @retry(stop=stop_after_delay(10))
+    def query_total_staked_at_height_dict(self, staking_contract: str):
+        query_dict = {"total_staked_at_height": {}}
+        query_data = json_encode(query_dict).encode("UTF8")
 
+        req_total_staked_at_height = QuerySmartContractStateRequest(
+            address=staking_contract, query_data=query_data
+        )
+        res_total_staked_at_height = self.wasm.SmartContractState(
+            req_total_staked_at_height
+        )
+        return json.loads(res_total_staked_at_height.data.decode("utf-8"))
 
-def get_network_config_args(chain_info):
-    chain = chain_info["chain"]
-    chain_name = chain["chain_name"]
+    @retry(stop=stop_after_delay(10))
+    def query_staked_balance_at_height_dict(self, staking_contract: str, address: str):
+        query_dict = {"staked_balance_at_height": {"address": address}}
 
-    try:
-        fee_token = chain["fees"]["fee_tokens"][0]
-        fee_denom = fee_token["denom"]
-        min_gas_price = fee_token["fixed_min_gas_price"]
-    except KeyError as ex:
-        fee_denom = chain["denom"]
-        min_gas_price = 0
+        query_data = json_encode(query_dict).encode("UTF8")
 
-    return {
-        "chain_id": chain["chain_id"],
-        "url": f"rest+{COSMOS_DIR_REST_PROXY}/{chain_name}",
-        "fee_minimum_gas_price": min_gas_price,
-        "fee_denomination": fee_denom,
-        "staking_denomination": "",
-    }
+        req_user_staked_at_height = QuerySmartContractStateRequest(
+            address=staking_contract, query_data=query_data
+        )
+        res_user_staked_at_height = self.wasm.SmartContractState(
+            req_user_staked_at_height
+        )
+        return json.loads(res_user_staked_at_height.data.decode("utf-8"))
