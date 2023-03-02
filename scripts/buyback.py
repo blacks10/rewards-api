@@ -57,20 +57,24 @@ def compute_buyback(kleo_allocated_to_chain: int):
             stakers = []
             for delegation in res_delegators.delegation_responses:
                 users_delegated_chain_token = delegation.balance.amount
+
+                amount = int(
+                    (
+                        int(users_delegated_chain_token)
+                        / int(total_delegated_chain_token)
+                    )
+                    * int(kleo_allocated_to_chain)
+                )
+
+                if amount == 0:
+                    continue
+
                 stakers_dict = {
                     "address": convert_to_juno_address(
                         validator_info["chain_id"],
                         delegation.delegation.delegator_address,
                     ),
-                    "amount": str(
-                        int(
-                            (
-                                int(users_delegated_chain_token)
-                                / int(total_delegated_chain_token)
-                            )
-                            * int(kleo_allocated_to_chain)
-                        )
-                    ),
+                    "amount": str(amount),
                 }
                 stakers.append(stakers_dict)
 
@@ -90,7 +94,7 @@ def compute_buyback(kleo_allocated_to_chain: int):
     if not (os.path.isdir(buyback_folder)):
         os.makedirs(buyback_folder, exist_ok=True)
 
-    filename = buyback_folder / f"buyback-{datetime.now()}.json"
+    filename = buyback_folder / f"buyback-{datetime.now().strftime('%B').lower()}.json"
     with open(filename, "w") as json_file:
         json.dump(total_stakers, json_file, indent=4)
 

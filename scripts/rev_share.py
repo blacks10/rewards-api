@@ -48,10 +48,12 @@ def compute_rev_share(total_rewards: int, chain_name: str):
         )
         encoded_resp = json.loads(resp_all_accounts_kleo.decode("utf-8"))
         logger.info(f"Loaded all staking users.")
-        logger.info(f"Start revenue computation..")
+        logger.info(f"Start revenue calculation..")
 
-        for model in tqdm(encoded_resp["models"]):
-            address_long = bytes.fromhex((model["key"])).decode("utf-8", errors="ignore")[2:]
+        for model in tqdm(encoded_resp["models"], "Computing.."):
+            address_long = bytes.fromhex((model["key"])).decode(
+                "utf-8", errors="ignore"
+            )[2:]
             if address_long.startswith("staked") and not "changelog" in address_long:
                 # balance = base64.b64decode(model["value"]).decode("utf-8").strip('"')
                 address = address_long[15:]
@@ -61,14 +63,19 @@ def compute_rev_share(total_rewards: int, chain_name: str):
                         staking_contract=STAKING_CONTRACT, address=address
                     )
                 )
+
                 user_staked = res_user_staked_at_height_dict["balance"]
+
+                amount = int(
+                    (int(user_staked) / int(total_staked)) * int(total_rewards)
+                )
+
+                if amount == 0:
+                    continue
 
                 stakers_dict = {
                     "address": address,
-                    # "balance": balance,
-                    "amount": str(
-                        int((int(user_staked) / int(total_staked)) * int(total_rewards))
-                    ),
+                    "amount": str(amount),
                 }
                 stakers.append(stakers_dict)
 
@@ -84,7 +91,7 @@ def compute_rev_share(total_rewards: int, chain_name: str):
     if not (os.path.isdir(rev_share_folder)):
         os.makedirs(rev_share_folder, exist_ok=True)
 
-    filename = rev_share_folder / f"rev_share-{datetime.now()}.json"
+    filename = rev_share_folder / f"rev_share-{datetime.now().strftime('%B').lower()}.json"
     with open(filename, "w") as json_file:
         json.dump(stakers, json_file, indent=4)
 
