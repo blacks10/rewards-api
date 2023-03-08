@@ -1,7 +1,4 @@
 import json
-from functools import partial
-
-import requests
 from cosmpy.common.utils import json_encode
 from cosmpy.protos.cosmwasm.wasm.v1.query_pb2 import QuerySmartContractStateRequest
 from tenacity import retry
@@ -15,7 +12,6 @@ from cosmpy.protos.cosmos.staking.v1beta1.query_pb2 import (
     QueryValidatorRequest,
 )
 from cosmpy.staking.rest_client import StakingRestClient
-from requests import RequestException
 from tenacity import stop_after_delay
 
 

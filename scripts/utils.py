@@ -1,5 +1,3 @@
-import json
-
 import requests
 from bip_utils import Bech32Decoder, Bech32Encoder
 
