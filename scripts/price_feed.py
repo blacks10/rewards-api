@@ -1,10 +1,29 @@
+from datetime import datetime
+from typing import List, Dict
+
 import click
-import json
 from cosmpy.aerial.config import NetworkConfig
 from loguru import logger
 
 from scripts.client import LedgerClient
 from scripts.utils import get_chain_info, get_network_config_args
+
+
+def convert_assets_data(assets: List[Dict]) -> Dict:
+    res_dict = {
+        "native": 0,
+        "cw20": 0,
+    }
+    for asset in assets:
+        info = asset["info"]
+        amount = asset["amount"]
+        token_type = list(info.keys())[0]
+        if token_type == "native":
+            res_dict["native"] = int(amount)
+        else:
+            res_dict["cw20"] = int(amount)
+
+    return res_dict
 
 
 @click.command()
@@ -19,22 +38,34 @@ def compute_price_feed(lp_addr: str, chain_name: str):
     client = LedgerClient(network_cfg)
 
     try:
-        resp_cum_prices_wynddao = client.rest_client.get(
-            f"/cosmwasm/wasm/v1/contract/{lp_addr}/state"
+        resp_cum_prices_wynddao = client.query_liquidity_pool_wynddao(lp_addr)
+
+        lp_amounts = convert_assets_data(resp_cum_prices_wynddao["assets"])
+        logger.info(lp_amounts)
+        try:
+            price = lp_amounts["native"] / lp_amounts["cw20"]
+        except ZeroDivisionError:
+            logger.error(
+                "There are 0 native token so no pricing calculation is possible...Abort!"
+            )
+            return
+
+        logger.info(f"Price is {price} at timestamp {datetime.utcnow().timestamp()}")
+        logger.info(
+            f"In order to buy 1 uKLEO you need {price} {network_cfg.fee_denomination}"
         )
 
-        encoded_resp = json.loads(resp_cum_prices_wynddao.decode("utf-8"))
+        data_to_push = {
+            "timestamp": int(datetime.utcnow().timestamp() * 1000),  # EPOCH millisecs,
+            "kleo_price": price,
+        }
+        logger.debug(f"Data to push {data_to_push}")
 
-        logger.info(f"resp: {encoded_resp}")
-        val = bytes.fromhex((model["key"])).decode(
-                "utf-8", errors="ignore"
-            )[2:]
-        logger.info(f"value = {}")
     except Exception as e:
-        print(f"Error: {e}")
+        logger.error(f"Error: {e}")
 
 
 if __name__ == "__main__":
-    lp_addr = "juno1dpqgt3ja2kdxs94ltjw9ncdsexts9e3dx5qpnl20zvgdguzjelhqstf8zg"
-    chain_name = "juno"
-    compute_price_feed(lp_addr, chain_name)()
+    # lp_addr = "juno1dpqgt3ja2kdxs94ltjw9ncdsexts9e3dx5qpnl20zvgdguzjelhqstf8zg"
+    # chain_name = "juno"
+    compute_price_feed()

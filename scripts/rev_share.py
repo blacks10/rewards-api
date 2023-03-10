@@ -90,7 +90,9 @@ def compute_rev_share(total_rewards: int, chain_name: str):
     if not (os.path.isdir(rev_share_folder)):
         os.makedirs(rev_share_folder, exist_ok=True)
 
-    filename = rev_share_folder / f"rev_share-{datetime.now().strftime('%B').lower()}.json"
+    filename = (
+        rev_share_folder / f"rev_share-{datetime.now().strftime('%B').lower()}.json"
+    )
     with open(filename, "w") as json_file:
         json.dump(stakers, json_file, indent=4)
 

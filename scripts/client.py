@@ -83,8 +83,11 @@ class LedgerClient(BaseLedgerClient):
 
         req_cumulative_prices = QuerySmartContractStateRequest(
             address=liq_pool_contract,
+            query_data=query_data,
         )
 
-        res_cumulative_prices = self.wasm.SmartContractState(request=req_cumulative_prices)
+        res_cumulative_prices = self.wasm.SmartContractState(
+            request=req_cumulative_prices
+        )
 
-        return json.loads(req_cumulative_prices.data.decode("utf-8"))
+        return json.loads(res_cumulative_prices.data.decode("utf-8"))
