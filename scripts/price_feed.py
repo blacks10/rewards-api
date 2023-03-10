@@ -28,7 +28,11 @@ def convert_assets_data(assets: List[Dict]) -> Dict:
 
 
 @click.command()
-@click.option("--lp_addr", default="juno1dpqgt3ja2kdxs94ltjw9ncdsexts9e3dx5qpnl20zvgdguzjelhqstf8zg", prompt="Liquidity Pool address")
+@click.option(
+    "--lp_addr",
+    default="juno1dpqgt3ja2kdxs94ltjw9ncdsexts9e3dx5qpnl20zvgdguzjelhqstf8zg",
+    prompt="Liquidity Pool address",
+)
 @click.option("--chain_name", default="juno", prompt="Chain name [ex. juno]")
 @click.option("--fiat-symbol", default="usd", prompt="FIAT symbol [ex. usd, eur]")
 def compute_price_feed(lp_addr: str, chain_name: str, fiat_symbol: str):
@@ -62,13 +66,14 @@ def compute_price_feed(lp_addr: str, chain_name: str, fiat_symbol: str):
 
         cg = Coingecko()
 
-        native_price_fiat = cg.pretty_prices()[chain_name.upper()]['prices'][fiat_symbol.lower()]
-
+        native_price_fiat = cg.pretty_prices()[chain_name.upper()]["prices"][
+            fiat_symbol.lower()
+        ]
 
         data_to_push = {
             "timestamp": int(datetime.utcnow().timestamp() * 1000),  # EPOCH millisecs,
             "kleo_price_in_juno": price,
-            "kleo_price_in_dollars": price * native_price_fiat
+            "kleo_price_in_dollars": price * native_price_fiat,
         }
         logger.debug(f"Data to push {data_to_push}")
 

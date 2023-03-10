@@ -3,6 +3,7 @@ from pycoingecko import CoinGeckoAPI
 ids = "juno-network"
 currencies = "usd,eur"
 
+
 class Coingecko:
     # https://www.coingecko.com/en/api/documentation
     def __init__(self):
