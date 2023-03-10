@@ -74,3 +74,17 @@ class LedgerClient(BaseLedgerClient):
             req_user_staked_at_height
         )
         return json.loads(res_user_staked_at_height.data.decode("utf-8"))
+
+    @retry(stop=stop_after_delay(10))
+    def query_liquidity_pool_wynddao(self, liq_pool_contract: str):
+        query_dict = {"cumulative_prices": {}}
+
+        query_data = json_encode(query_dict).encode("UTF8")
+
+        req_cumulative_prices = QuerySmartContractStateRequest(
+            address=liq_pool_contract,
+        )
+
+        res_cumulative_prices = self.wasm.SmartContractState(request=req_cumulative_prices)
+
+        return json.loads(req_cumulative_prices.data.decode("utf-8"))
