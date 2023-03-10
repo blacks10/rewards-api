@@ -1,7 +1,7 @@
 import requests
 from bip_utils import Bech32Decoder, Bech32Encoder
 
-from scripts.costants import COSMOS_DIR_API, COSMOS_DIR_REST_PROXY
+from kleo_rewards.scripts.costants import COSMOS_DIR_API, COSMOS_DIR_REST_PROXY
 
 
 def get_chain_info(chain):

@@ -1,13 +1,15 @@
+import json
 from datetime import datetime
+from pathlib import Path
 from typing import List, Dict
 
 import click
 from cosmpy.aerial.config import NetworkConfig
 from loguru import logger
 
-from scripts.client import LedgerClient
-from scripts.coingecko_client import Coingecko
-from scripts.utils import get_chain_info, get_network_config_args
+from kleo_rewards.scripts.client import LedgerClient
+from kleo_rewards.scripts.coingecko_client import Coingecko
+from kleo_rewards.scripts.utils import get_chain_info, get_network_config_args
 
 
 def convert_assets_data(assets: List[Dict]) -> Dict:
@@ -35,7 +37,12 @@ def convert_assets_data(assets: List[Dict]) -> Dict:
 )
 @click.option("--chain_name", default="juno", prompt="Chain name [ex. juno]")
 @click.option("--fiat-symbol", default="usd", prompt="FIAT symbol [ex. usd, eur]")
-def compute_price_feed(lp_addr: str, chain_name: str, fiat_symbol: str):
+@click.option(
+    "--output-file", default="/tmp/kleo_price_feed.json", prompt="Output file path"
+)
+def compute_price_feed(
+    lp_addr: str, chain_name: str, fiat_symbol: str, output_file: Path
+):
     logger.info(f"Computing Price Feed for $KLEO on liquidity pool {lp_addr} rewards.")
 
     chain_info = get_chain_info(chain_name)
@@ -76,6 +83,12 @@ def compute_price_feed(lp_addr: str, chain_name: str, fiat_symbol: str):
             "kleo_price_in_dollars": price * native_price_fiat,
         }
         logger.debug(f"Data to push {data_to_push}")
+
+        with open(output_file, "w") as fp:
+            # write data to file
+            json.dump(data_to_push, fp)
+
+        logger.info(f"Data written to file {output_file}")
 
     except Exception as e:
         logger.error(f"Error: {e}")

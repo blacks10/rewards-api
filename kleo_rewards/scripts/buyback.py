@@ -8,8 +8,8 @@ import click
 from loguru import logger
 from cosmpy.aerial.config import NetworkConfig
 
-from scripts.client import LedgerClient
-from scripts.utils import (
+from kleo_rewards.scripts.client import LedgerClient
+from kleo_rewards.scripts.utils import (
     get_chain_info,
     get_network_config_args,
     convert_to_juno_address,

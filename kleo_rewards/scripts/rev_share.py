@@ -9,9 +9,9 @@ from loguru import logger
 from cosmpy.aerial.config import NetworkConfig
 from tqdm import tqdm
 
-from scripts.client import LedgerClient
-from scripts.utils import get_chain_info, get_network_config_args
-from scripts.costants import STAKING_CONTRACT
+from kleo_rewards.scripts.client import LedgerClient
+from kleo_rewards.scripts.utils import get_chain_info, get_network_config_args
+from kleo_rewards.scripts.costants import STAKING_CONTRACT
 
 rev_share_folder = Path(__file__).parent / "rev_share_folder"
 
