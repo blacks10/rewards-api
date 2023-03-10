@@ -9,9 +9,9 @@ from loguru import logger
 from cosmpy.aerial.config import NetworkConfig
 from tqdm import tqdm
 
-from scripts.client import LedgerClient
-from scripts.utils import get_chain_info, get_network_config_args
-from scripts.costants import STAKING_CONTRACT
+from kleo_rewards.scripts.client import LedgerClient
+from kleo_rewards.scripts.utils import get_chain_info, get_network_config_args
+from kleo_rewards.scripts.costants import STAKING_CONTRACT
 
 rev_share_folder = Path(__file__).parent / "rev_share_folder"
 
@@ -22,7 +22,7 @@ rev_share_folder = Path(__file__).parent / "rev_share_folder"
 
 @click.command()
 @click.option("--total_rewards", prompt="Total rewards of this month")
-@click.option("--chain_name", prompt="Chain name [ex. juno]")
+@click.option("--chain_name", default="juno", prompt="Chain name [ex. juno]")
 def compute_rev_share(total_rewards: int, chain_name: str):
     logger.info(f"Computing rev share for {total_rewards} rewards.")
 
@@ -90,7 +90,9 @@ def compute_rev_share(total_rewards: int, chain_name: str):
     if not (os.path.isdir(rev_share_folder)):
         os.makedirs(rev_share_folder, exist_ok=True)
 
-    filename = rev_share_folder / f"rev_share-{datetime.now().strftime('%B').lower()}.json"
+    filename = (
+        rev_share_folder / f"rev_share-{datetime.now().strftime('%B').lower()}.json"
+    )
     with open(filename, "w") as json_file:
         json.dump(stakers, json_file, indent=4)
 
