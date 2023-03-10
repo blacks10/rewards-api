@@ -1,3 +1,5 @@
+from typing import List, Dict
+
 import requests
 from bip_utils import Bech32Decoder, Bech32Encoder
 
@@ -36,3 +38,20 @@ def get_network_config_args(chain_info):
 def convert_to_juno_address(chain: str, address: str) -> str:
     decoded_juno = Bech32Decoder.Decode(chain, address)
     return Bech32Encoder.Encode("juno", decoded_juno)
+
+
+def convert_assets_data(assets: List[Dict]) -> Dict:
+    res_dict = {
+        "native": 0,
+        "cw20": 0,
+    }
+    for asset in assets:
+        info = asset["info"]
+        amount = asset["amount"]
+        token_type = list(info.keys())[0]
+        if token_type == "native":
+            res_dict["native"] = int(amount)
+        else:
+            res_dict["cw20"] = int(amount)
+
+    return res_dict

@@ -1,7 +1,6 @@
 from pycoingecko import CoinGeckoAPI
 
-ids = "juno-network"
-currencies = "usd,eur"
+from kleo_rewards.scripts.costants import IDS, CURRENCIES
 
 
 class Coingecko:
@@ -15,14 +14,14 @@ class Coingecko:
 
     def __get_symbols(self):
         values = {}
-        for _id in ids.split(","):
+        for _id in IDS.split(","):
             data = self.cg.get_coin_by_id(_id)
             symbol = data.get("symbol", "")
             values[_id] = symbol
         return values
 
     def get_prices(self) -> dict:
-        return self.cg.get_price(ids=ids, vs_currencies=currencies)
+        return self.cg.get_price(ids=IDS, vs_currencies=CURRENCIES)
 
     def pretty_prices(self):
         updated_coins = {}

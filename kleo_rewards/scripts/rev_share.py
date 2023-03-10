@@ -22,7 +22,7 @@ rev_share_folder = Path(__file__).parent / "rev_share_folder"
 
 @click.command()
 @click.option("--total_rewards", prompt="Total rewards of this month")
-@click.option("--chain_name", prompt="Chain name [ex. juno]")
+@click.option("--chain_name", default="juno", prompt="Chain name [ex. juno]")
 def compute_rev_share(total_rewards: int, chain_name: str):
     logger.info(f"Computing rev share for {total_rewards} rewards.")
 

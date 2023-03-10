@@ -1,32 +1,18 @@
 import json
+import os
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict
 
 import click
+import tenacity
 from cosmpy.aerial.config import NetworkConfig
 from loguru import logger
 
 from kleo_rewards.scripts.client import LedgerClient
 from kleo_rewards.scripts.coingecko_client import Coingecko
-from kleo_rewards.scripts.utils import get_chain_info, get_network_config_args
+from kleo_rewards.scripts.utils import get_chain_info, get_network_config_args, convert_assets_data
 
-
-def convert_assets_data(assets: List[Dict]) -> Dict:
-    res_dict = {
-        "native": 0,
-        "cw20": 0,
-    }
-    for asset in assets:
-        info = asset["info"]
-        amount = asset["amount"]
-        token_type = list(info.keys())[0]
-        if token_type == "native":
-            res_dict["native"] = int(amount)
-        else:
-            res_dict["cw20"] = int(amount)
-
-    return res_dict
+price_feed_folder = Path(__file__).parent / "price_feed_folder"
 
 
 @click.command()
@@ -37,12 +23,7 @@ def convert_assets_data(assets: List[Dict]) -> Dict:
 )
 @click.option("--chain_name", default="juno", prompt="Chain name [ex. juno]")
 @click.option("--fiat-symbol", default="usd", prompt="FIAT symbol [ex. usd, eur]")
-@click.option(
-    "--output-file", default="/tmp/kleo_price_feed.json", prompt="Output file path"
-)
-def compute_price_feed(
-    lp_addr: str, chain_name: str, fiat_symbol: str, output_file: Path
-):
+def compute_price_feed(lp_addr: str, chain_name: str, fiat_symbol: str):
     logger.info(f"Computing Price Feed for $KLEO on liquidity pool {lp_addr} rewards.")
 
     chain_info = get_chain_info(chain_name)
@@ -84,17 +65,24 @@ def compute_price_feed(
         }
         logger.debug(f"Data to push {data_to_push}")
 
-        with open(output_file, "w") as fp:
+        if not (os.path.isdir(price_feed_folder)):
+            os.makedirs(price_feed_folder, exist_ok=True)
+
+        filename = price_feed_folder / f"kleo_price_feed-{datetime.now()}.json"
+
+        with open(filename, "w") as fp:
             # write data to file
-            json.dump(data_to_push, fp)
+            json.dump(data_to_push, fp, indent=4)
 
-        logger.info(f"Data written to file {output_file}")
+        logger.info(f"Data written to file {filename}")
 
+    except tenacity.RetryError as e:
+        print(
+            f"Failed after {e.last_attempt.attempt_number} attempts: {e.last_attempt.result()}"
+        )
     except Exception as e:
         logger.error(f"Error: {e}")
 
 
 if __name__ == "__main__":
-    # lp_addr = "juno1dpqgt3ja2kdxs94ltjw9ncdsexts9e3dx5qpnl20zvgdguzjelhqstf8zg"
-    # chain_name = "juno"
     compute_price_feed()
