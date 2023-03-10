@@ -6,6 +6,7 @@ from cosmpy.aerial.config import NetworkConfig
 from loguru import logger
 
 from scripts.client import LedgerClient
+from scripts.coingecko_client import Coingecko
 from scripts.utils import get_chain_info, get_network_config_args
 
 
@@ -27,15 +28,19 @@ def convert_assets_data(assets: List[Dict]) -> Dict:
 
 
 @click.command()
-@click.option("--lp_addr", prompt="Liquidity Pool address")
-@click.option("--chain_name", prompt="Chain name [ex. juno]")
-def compute_price_feed(lp_addr: str, chain_name: str):
+@click.option("--lp_addr", default="juno1dpqgt3ja2kdxs94ltjw9ncdsexts9e3dx5qpnl20zvgdguzjelhqstf8zg", prompt="Liquidity Pool address")
+@click.option("--chain_name", default="juno", prompt="Chain name [ex. juno]")
+@click.option("--fiat-symbol", default="usd", prompt="FIAT symbol [ex. usd, eur]")
+def compute_price_feed(lp_addr: str, chain_name: str, fiat_symbol: str):
     logger.info(f"Computing Price Feed for $KLEO on liquidity pool {lp_addr} rewards.")
 
     chain_info = get_chain_info(chain_name)
     network_cfg_kwargs = get_network_config_args(chain_info)
     network_cfg = NetworkConfig(**network_cfg_kwargs)
     client = LedgerClient(network_cfg)
+
+    logger.info(f"Chain {chain_name} with native token {network_cfg.fee_denomination}")
+    logger.info(f"Target FIAT selected {fiat_symbol}")
 
     try:
         resp_cum_prices_wynddao = client.query_liquidity_pool_wynddao(lp_addr)
@@ -55,9 +60,15 @@ def compute_price_feed(lp_addr: str, chain_name: str):
             f"In order to buy 1 uKLEO you need {price} {network_cfg.fee_denomination}"
         )
 
+        cg = Coingecko()
+
+        native_price_fiat = cg.pretty_prices()[chain_name.upper()]['prices'][fiat_symbol.lower()]
+
+
         data_to_push = {
             "timestamp": int(datetime.utcnow().timestamp() * 1000),  # EPOCH millisecs,
-            "kleo_price": price,
+            "kleo_price_in_juno": price,
+            "kleo_price_in_dollars": price * native_price_fiat
         }
         logger.debug(f"Data to push {data_to_push}")
 
