@@ -80,11 +80,11 @@ def compute_biggest_stakers(chain_name: str, number: int):
             json.dump(biggest_stakes, json_file, indent=4)
 
     except tenacity.RetryError as e:
-        print(
+        logger.error(
             f"Failed after {e.last_attempt.attempt_number} attempts: {e.last_attempt.result()}"
         )
     except Exception as e:
-        print(f"Error: {e}")
+        logger.error(f"Error: {e}")
 
 
 if __name__ == "__main__":
