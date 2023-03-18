@@ -24,8 +24,8 @@ classifiers = [
 ]
 
 
-repository = "https://github.com/python-poetry/poetry"
-homepage = "https://python-poetry.org"
+repository = "https://github.com/blacks10/rewards-api"
+homepage = "https://kleomed.es/"
 
 # README file(s) are used as the package description
 readme = ["README.md"]
