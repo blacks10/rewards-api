@@ -1,0 +1,49 @@
+[tool.black]
+line-length = 100
+target-version = ['py310']
+experimental_string_processing = true
+
+[tool.ruff]
+line-length = 100
+
+[tool.poetry]
+name = "kleo-rewards"
+version = "0.1.0"
+description = "Kleomedes rewards"
+
+license = "MIT"
+
+authors = [
+    "Kleomedes Dev Team"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+repository = "https://github.com/blacks10/rewards-api"
+homepage = "https://kleomed.es/"
+
+# README file(s) are used as the package description
+readme = ["README.md"]
+
+# Keywords (translated to tags on the package index)
+keywords = ["kleomedes", "cosmos", "juno", "DAO", "rewards"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4"
+cosmpy = "0.6.*"
+requests = "2.28.*"
+loguru = "0.6.*"
+bip-utils = "2.7.*"
+click = "8.1.*"
+tenacity = "8.2.*"
+tqdm = "4.64.*"
+pycoingecko = "3.1.*"
+
+[tool.poetry.group.dev.dependencies]
+black = "23.1.*"
+pre-commit = "3.2.*"
