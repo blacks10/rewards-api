@@ -1,0 +1,1582 @@
+[
+    {
+        "address": "juno103dqhh5m32cvp320n24j4uvuc6xrn72gvgexaz",
+        "amount": "63715"
+    },
+    {
+        "address": "juno105rf9sxvzqrf8sce5rktffgd2t960uy0ag7dnn",
+        "amount": "1056450"
+    },
+    {
+        "address": "juno1069gs28axkmy4gz74kp0w2r86mdgrn4chaf4jz",
+        "amount": "57617"
+    },
+    {
+        "address": "juno106m08s5wh7vtpdxn75t96gxspg3x06zfadg3yz",
+        "amount": "80201"
+    },
+    {
+        "address": "juno107t3km9mthl93axtpqfsfavkguk7333t7fge5w",
+        "amount": "271127"
+    },
+    {
+        "address": "juno10d3thvhar0h67cqxh89xj5dr3h7s8rua8nppd2",
+        "amount": "4292"
+    },
+    {
+        "address": "juno10jkq2rmejvcml0r7hu4s39z8kchrzvqugln6e5",
+        "amount": "267734"
+    },
+    {
+        "address": "juno10ru62xx3j4sxg67gx0re9tyqcn6620hjesqdvn",
+        "amount": "5291"
+    },
+    {
+        "address": "juno10t7jd3kkquqrymjfwyh8ugmh6ntwhwkhxhk9wd",
+        "amount": "64983"
+    },
+    {
+        "address": "juno10u24rwqfxl48rshaasextp5a25gejuzaj0sc4n",
+        "amount": "139555"
+    },
+    {
+        "address": "juno10us5qcwgr3m54c35jztltr0jq5thyugrghjwtz",
+        "amount": "100848"
+    },
+    {
+        "address": "juno10vfhsr4hcs7ency5u3nfl2hunrtaf9p0pdxvzj",
+        "amount": "1833"
+    },
+    {
+        "address": "juno10zr5rvwjghe97unzjg7uzgm8rpym9e2tz6gmw5",
+        "amount": "203451"
+    },
+    {
+        "address": "juno1255kd9glzk68ltavvya72m9fz03wte5p9l09vf",
+        "amount": "65788"
+    },
+    {
+        "address": "juno125dxj9etcaqh3sngytj8t29kjvm8d2pvpvlzyw",
+        "amount": "16131"
+    },
+    {
+        "address": "juno12736ed7frh0uxwv2tm29qz8v30fe03kqg3928k",
+        "amount": "18336"
+    },
+    {
+        "address": "juno127xf5z5wdpwke0cmqvav4f0paxt6ygllfcf3qu",
+        "amount": "109965"
+    },
+    {
+        "address": "juno12ey4ejg2zzpht4arheehxf5j7plu0h2xyyn5rd",
+        "amount": "142220"
+    },
+    {
+        "address": "juno12wn6juw74mal6jhc9nlw7ykdjcs5qtfh5uz8em",
+        "amount": "444"
+    },
+    {
+        "address": "juno130u4d5s67fdk76e8wt9ykpxsmfwy5m3s607kfm",
+        "amount": "14685"
+    },
+    {
+        "address": "juno1328lzu98j94ualckk8l0f9y3qytsuqtmmrqf49",
+        "amount": "29398"
+    },
+    {
+        "address": "juno134g8tp9jc7mv5nps2z7t39wqggse6qgtsa2tdu",
+        "amount": "5854078"
+    },
+    {
+        "address": "juno1370jhd4uje8v6739dl0r5tyzva34clzfdketad",
+        "amount": "119184"
+    },
+    {
+        "address": "juno13et0n7maw0aanzerxv22gavmn8ysx2498h8u7d",
+        "amount": "1833"
+    },
+    {
+        "address": "juno13fyrv9huq880vkc3unl45grn2klgt5qqaauqz4",
+        "amount": "355912"
+    },
+    {
+        "address": "juno13gk9j3ush9mpccfrxpadzq4ntlscjjv5lwfu24",
+        "amount": "91680"
+    },
+    {
+        "address": "juno13l0uduvw2z7vf2zjef979x303yuxfwy9n4039y",
+        "amount": "63104"
+    },
+    {
+        "address": "juno13m6tpcafcayyumyyjn58ul25kpvy40uu5vtprv",
+        "amount": "7456"
+    },
+    {
+        "address": "juno13mf9eackd4jmm3nrukj7788tzsxtkw89tyu0yk",
+        "amount": "143787"
+    },
+    {
+        "address": "juno13r8xlqtpsd74s3xlauf6875my76qzjwg08nrl4",
+        "amount": "55008"
+    },
+    {
+        "address": "juno13sk4dwrcywhqas32qrrav7e9lgc86nffv28cc7",
+        "amount": "55030"
+    },
+    {
+        "address": "juno143v8d9qzpsj46m30zsj7m2677x77604t9klmsy",
+        "amount": "97181"
+    },
+    {
+        "address": "juno144frlhxeaqj4agr6pm8alhpzjkywvf60j5avwv",
+        "amount": "62589"
+    },
+    {
+        "address": "juno144t874ylvqte30h4fx7nj7hu2cg9x9yra6y2sl",
+        "amount": "232896"
+    },
+    {
+        "address": "juno1470a69gj83l443qxzsss2flcetxr25ppjt97xs",
+        "amount": "2161"
+    },
+    {
+        "address": "juno147p7mjqnq68wsh6dg7he4wfv78avxse09my6un",
+        "amount": "7187"
+    },
+    {
+        "address": "juno1484u73e8aep506yce9s3tag496vcpw8dwf75p0",
+        "amount": "98662"
+    },
+    {
+        "address": "juno14a9n3jd7qdec2mwyhpxkhzlma8l5009r6wr25n",
+        "amount": "132127"
+    },
+    {
+        "address": "juno14hfrnwazgjn75gas9dv67m96u79edgv26vnn2y",
+        "amount": "1833"
+    },
+    {
+        "address": "juno14jwvq5jyg3w2f6q3v4f22fxm4y20dapcq4lhkv",
+        "amount": "141988"
+    },
+    {
+        "address": "juno14nqfsxmwvp30jw73vxjh82stfymgwqweyt7646",
+        "amount": "1607"
+    },
+    {
+        "address": "juno14p2746l8m2akqe0nv2x3659zru6sex5gz3hazr",
+        "amount": "1550277"
+    },
+    {
+        "address": "juno14p40thw7mp9puhe6y5w4awjqnknrumxuyxhyts",
+        "amount": "348"
+    },
+    {
+        "address": "juno14trvm9aqra67uykhquxrykffr8zrnmq5n7z45c",
+        "amount": "132290"
+    },
+    {
+        "address": "juno14wcf5sqh3nm2gyueh97eawu78xqus5c4hdqj5g",
+        "amount": "18336"
+    },
+    {
+        "address": "juno14ysx5r0xsltr5z74932k0ncvcvm559ua0mmmy7",
+        "amount": "92666"
+    },
+    {
+        "address": "juno1584qytxathly9mhsjz9fmeyfc7na8e6g6fxumt",
+        "amount": "3144"
+    },
+    {
+        "address": "juno15897vt8mt7pnpxwyck0hldqfxsj0rmx64ruemx",
+        "amount": "260381"
+    },
+    {
+        "address": "juno158z7fl0qankm796ra2hrmtrge8x4a6yqk3j7hq",
+        "amount": "28743"
+    },
+    {
+        "address": "juno15axc00xx2a9mp6vvm86d4yzkwmq878pu4dy558",
+        "amount": "166423"
+    },
+    {
+        "address": "juno15cw3rqzps37gy45pmmwxlrutf4pgnn2ccm7dk4",
+        "amount": "366"
+    },
+    {
+        "address": "juno15jjvqhdu5uscyjxzrzjrel0y3p0uk8fpllnwth",
+        "amount": "207621"
+    },
+    {
+        "address": "juno15kunxjveapfn8pgqc5hgyrvw38mapdl2upuc5f",
+        "amount": "91680"
+    },
+    {
+        "address": "juno15mk5l9w02fwxrd8y7xtes7la7vh9ve3af96nru",
+        "amount": "71510"
+    },
+    {
+        "address": "juno15qlynwz62vmxp5a37tgzae79wu8xj6j759a63v",
+        "amount": "18336"
+    },
+    {
+        "address": "juno15scjzlsz9y8mjw02mtkgzlysvjvewk42dldjas",
+        "amount": "54465"
+    },
+    {
+        "address": "juno15whv5ljld3c9v554dn2xuupm7lz3cln6qkm8xm",
+        "amount": "55099"
+    },
+    {
+        "address": "juno15y2jy3uatqlavdmjkfr779dydgjqk43an8z4pr",
+        "amount": "63656"
+    },
+    {
+        "address": "juno1600utq378tma9vnh3tz43h2f7us7axa7efzs34",
+        "amount": "100789"
+    },
+    {
+        "address": "juno160sa9dv06t8nvaw9gnq4h54dq93l90vvmw8zex",
+        "amount": "155514"
+    },
+    {
+        "address": "juno160zw3a6jw99nhkvwvsrcadd29mpelect8wkdt3",
+        "amount": "36672"
+    },
+    {
+        "address": "juno1696qscgzpma5jr69un5ddd3s3c5028u9kstt6r",
+        "amount": "4126485"
+    },
+    {
+        "address": "juno169dywxyhn0ng2hdqen9sgxsjflme699fy68pen",
+        "amount": "16393"
+    },
+    {
+        "address": "juno16a9eqqduva9rk5vhuk8cf9vs90atqfhtdys2ul",
+        "amount": "116267"
+    },
+    {
+        "address": "juno16c8fzh6v877u3wjndrd6ryac6sv5c3ptt2f89v",
+        "amount": "74014"
+    },
+    {
+        "address": "juno16evwm2pvj8s0g7lxy0us9ahgr2j0pdg7rrcefz",
+        "amount": "72343"
+    },
+    {
+        "address": "juno16ffse4k2cm3x6u5dd4378e9803gmruwwyhz9wj",
+        "amount": "12368"
+    },
+    {
+        "address": "juno16r0swsflhus9e784u4glf0rwwfgvu2vcru9d77",
+        "amount": "366"
+    },
+    {
+        "address": "juno17070wwjhlurczgm9658k7p9a8ds08shj4yevmy",
+        "amount": "297044"
+    },
+    {
+        "address": "juno174923zsng7yvshc0798dg52fg99wzrspudfh4p",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1760d9jkledghjckd65gemglkv8cpq7328le4q9",
+        "amount": "138288"
+    },
+    {
+        "address": "juno17d98640zus4k5xq2sdpp2kprmvmrh4a9v5varc",
+        "amount": "476241"
+    },
+    {
+        "address": "juno17dsc5tlt9z2snqafzzv43cxxzu4j4zcu3jerp2",
+        "amount": "1706"
+    },
+    {
+        "address": "juno17fyqvan0u4rk3vey7fxwxlrl5xntepledugt2u",
+        "amount": "368"
+    },
+    {
+        "address": "juno17hgjycfeheh2j9q8t4k5v2xptc66xzs0ye6wmf",
+        "amount": "714"
+    },
+    {
+        "address": "juno17n56wlk4c43v7prdqc4hnley2umsgxd2atzpyc",
+        "amount": "14668"
+    },
+    {
+        "address": "juno17nkqlefug0hqaczdk47a6xxj6cud6wq2aj2ysu",
+        "amount": "39789"
+    },
+    {
+        "address": "juno17nun6cg7a5xtu9fz2p8scxr7u9jmrf5v6xq9ss",
+        "amount": "73344"
+    },
+    {
+        "address": "juno17p5e85hegsqrh0fq3eeer49txedkj9ke28putt",
+        "amount": "21574"
+    },
+    {
+        "address": "juno17pe4wffe5n094v9xm3v0jyvj38z3rzusjlme4t",
+        "amount": "523961"
+    },
+    {
+        "address": "juno17u6cdrkjspru7ga6t569vqu2yvncs8zrkk753g",
+        "amount": "32088"
+    },
+    {
+        "address": "juno17v6tme9dus6u5gtx4emdgdwqz567pct36ht43c",
+        "amount": "105354"
+    },
+    {
+        "address": "juno17vxaggqe94dnamu0j449we6kkly20nepa2xlsw",
+        "amount": "137923"
+    },
+    {
+        "address": "juno17wkd9fxchmh99mr7smfv03yzhu65kyumtpuce5",
+        "amount": "49112"
+    },
+    {
+        "address": "juno17x2ry75hddumjswr2gr7hwfle7hdtned7wre9q",
+        "amount": "82512"
+    },
+    {
+        "address": "juno184s686hxtj5xljueza98zvam4mgtu7d80xpu8s",
+        "amount": "760"
+    },
+    {
+        "address": "juno186snhx9rdwm0sfv4acyww2j4m6ecw36v7a0y9m",
+        "amount": "5541"
+    },
+    {
+        "address": "juno186wj62urxryvnffz9uxyuykthdn3s3mcy7j7l4",
+        "amount": "17610"
+    },
+    {
+        "address": "juno186wkj93065766e252n68fw65lzhq7gqwzhc6j5",
+        "amount": "75503"
+    },
+    {
+        "address": "juno1880z6724rrl8dnlmt82v59uw7ek0dvayhc3e4g",
+        "amount": "2065418"
+    },
+    {
+        "address": "juno18d7jpa5q6we96gluuc767cacxzgq92xqmq23ng",
+        "amount": "155254"
+    },
+    {
+        "address": "juno18p9k29vyc20qrlksgn7fjqjjfxytnv6gfv6nrc",
+        "amount": "275"
+    },
+    {
+        "address": "juno18qpuvkkzgk694m0gka3ukspg04njr6kv23rw7h",
+        "amount": "36672"
+    },
+    {
+        "address": "juno18v2wmlyjxzzvj03nk23d9lgffferkep72yj8jm",
+        "amount": "7700"
+    },
+    {
+        "address": "juno18wm3f6s7yw0f0la09rnczvu9xp8wkkxfyfgfck",
+        "amount": "11479"
+    },
+    {
+        "address": "juno18xhs7tmx833m36y7gvq9y4pqtymuu9xa7m9jkf",
+        "amount": "183360"
+    },
+    {
+        "address": "juno192guner3ahpkfegtptmw2dfxscdqvg3f5n80f7",
+        "amount": "146688"
+    },
+    {
+        "address": "juno194sdh425hw6ql7uc2jd09qxkmr2mmcxr944cmr",
+        "amount": "1833"
+    },
+    {
+        "address": "juno19676a2qy59ttvcsuayqeyutfu5qx4jmnd2rmh6",
+        "amount": "45840"
+    },
+    {
+        "address": "juno1969s4uk5tyukkvgu0rg3hln6gm42tp64uks9mq",
+        "amount": "24848"
+    },
+    {
+        "address": "juno196h0j26h5gpaz9n9hy7d30x9z7zfy957m4lzqm",
+        "amount": "11448"
+    },
+    {
+        "address": "juno196tq2xzaphu4d0e7wcr3yccjcyztnzw728dpu9",
+        "amount": "7505"
+    },
+    {
+        "address": "juno196v9ugwmn2gs5c2a0tv0vvz7yg40t0fasczwne",
+        "amount": "24848"
+    },
+    {
+        "address": "juno199ndqufcfn4h3vh4gl6da0l6u8ct9scljen3x0",
+        "amount": "340157"
+    },
+    {
+        "address": "juno19gkxc4qs4kuvjy4xvwnn0netrruz5rzd0pjnrz",
+        "amount": "5500"
+    },
+    {
+        "address": "juno19j7tfzwp7xdcw6j6ds7v2raldkc87jkax0tk43",
+        "amount": "194973"
+    },
+    {
+        "address": "juno19kk2gcxyhp9qe8nrldctdjqygevqa3hn5wgreu",
+        "amount": "792806"
+    },
+    {
+        "address": "juno19p9tw2xcelkkcrllfeh7ed5g9pcdqvtuy2ydmn",
+        "amount": "14244"
+    },
+    {
+        "address": "juno19pe553u82zthd3jedt0jf7hszu92jx50v9yhw7",
+        "amount": "284386"
+    },
+    {
+        "address": "juno1a67dwfw3w43a2t5gcwyqekf7394fq6ew2dr9dw",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1a7unnd2yj958elqfmngx7nzh6z3pfhspxvhgs7",
+        "amount": "5547"
+    },
+    {
+        "address": "juno1a8u02d5y8a9mlwkkvwegeurhxu8kc970wmutcz",
+        "amount": "2013553"
+    },
+    {
+        "address": "juno1a9yu749xgn9l9gwkxhwsfqv47whf38ydy00tmr",
+        "amount": "8403"
+    },
+    {
+        "address": "juno1afckms62rklwgyn2mmsh3ap4zsdh39rx0p3yz3",
+        "amount": "89322"
+    },
+    {
+        "address": "juno1agv5xsuu73aj5k4ayz9mftnv3kdy07kfaa68g5",
+        "amount": "6177"
+    },
+    {
+        "address": "juno1ajpm3e98uy408eg0npx9j4875zxmxnkp2aanua",
+        "amount": "183"
+    },
+    {
+        "address": "juno1an7untm0j46parl25rymd3pewmqpycvk5er7kc",
+        "amount": "43089"
+    },
+    {
+        "address": "juno1ar3tcy3mjxr5zuywg9falcrwn7gd5gwhg4xt8n",
+        "amount": "93969"
+    },
+    {
+        "address": "juno1ask8x8anxmdg9ujwat43dfdhmkx365scvg0rv5",
+        "amount": "1113929"
+    },
+    {
+        "address": "juno1aydl9yn57a0hwjre98q7rc30zymeks7j9xzl2z",
+        "amount": "3233"
+    },
+    {
+        "address": "juno1az0f6dhncud2ku4smyp0vz38fyhgtd4jllwl04",
+        "amount": "462"
+    },
+    {
+        "address": "juno1azeq452qwrxmyk36ayd4hfjjtcndhwvg2drap5",
+        "amount": "243009"
+    },
+    {
+        "address": "juno1c5tn39sxuqdatawsdmvl5y83gtuqw6rdmutuqx",
+        "amount": "161428"
+    },
+    {
+        "address": "juno1cdhkt9ps47hwn9sqren70uw9cyrfka9fyufysl",
+        "amount": "73344"
+    },
+    {
+        "address": "juno1chckfyh2ttpx9fhu7r6nqnrsfl9zeptz9qxgy6",
+        "amount": "33494"
+    },
+    {
+        "address": "juno1cllx8evjemmv7xal6uycxu9t94lc9h6far5twt",
+        "amount": "6967"
+    },
+    {
+        "address": "juno1cly2y4rvypfmcw9rg7sysmq3f5pktjlu3ag5sw",
+        "amount": "1100"
+    },
+    {
+        "address": "juno1cmfpsutaxqwmnxppxd4arfjnx79aq74ac0acun",
+        "amount": "20016"
+    },
+    {
+        "address": "juno1cn9tlqutcz77l34e2pnhtuszd0y9thz8gf668v",
+        "amount": "157744"
+    },
+    {
+        "address": "juno1csr43mqkqke4lwa37k0u7863ujz40qnadup2ct",
+        "amount": "2156501"
+    },
+    {
+        "address": "juno1d5ukx4wgp25p8rvfkceuf4dv03r2nnl8kf5un6",
+        "amount": "31503"
+    },
+    {
+        "address": "juno1d5wn9jrzjnzd6tc62qgrs7f452wxymhlpesrwq",
+        "amount": "256704"
+    },
+    {
+        "address": "juno1d70ft5jj99q4em4peke5ythgcq0y9rjmu2uhs3",
+        "amount": "20348"
+    },
+    {
+        "address": "juno1d8typu5gc5lg40ewcywcp9u9rsm42w2q7rv3sd",
+        "amount": "4134"
+    },
+    {
+        "address": "juno1djdqx54lykdu4nqspp3c0k9xrt8fmlclq4d4ms",
+        "amount": "33788"
+    },
+    {
+        "address": "juno1dk7nzc3g39np23tr2chsut5w5he59cqmpxeunp",
+        "amount": "6834"
+    },
+    {
+        "address": "juno1dkk2awqq99ylydjhua6j2y9l5z8c5vg7l0eu0u",
+        "amount": "481165"
+    },
+    {
+        "address": "juno1dl9jfeu6hw6t7fe3452zan82zltrfrpvt5wd4q",
+        "amount": "141369"
+    },
+    {
+        "address": "juno1dm90c3eyxcwknmtx0hfcte4tfav9xd7djrsqd4",
+        "amount": "7407"
+    },
+    {
+        "address": "juno1dnpuu3wwawwkr4vjpd7h4368l3ukzwygpy93cm",
+        "amount": "199866"
+    },
+    {
+        "address": "juno1dsq074k5h7672fa2pqrjek06u8vw9az355vdc2",
+        "amount": "979918"
+    },
+    {
+        "address": "juno1duad60aqqyhzfnha5srhpsw3eegg6phmy45vmd",
+        "amount": "10188"
+    },
+    {
+        "address": "juno1dv5mumyd65ze5fkh9jy8a0jmpu7hyrjq80n04q",
+        "amount": "11166"
+    },
+    {
+        "address": "juno1dxy5vd2xe3s48hlwrpy9xeepqzn3jg9hn89r0f",
+        "amount": "259508"
+    },
+    {
+        "address": "juno1dyy888w66lqeakum32d2r5pnvulle5n5jq9vud",
+        "amount": "47391"
+    },
+    {
+        "address": "juno1e0rdv5r2ts3jnqvdle34xhh53mmdgrlkhm3vkh",
+        "amount": "198029"
+    },
+    {
+        "address": "juno1e0v83jk03v04n2we9ha4hq4dwt7sq6gk7huv7u",
+        "amount": "48382"
+    },
+    {
+        "address": "juno1e6xk3jdvvjyrxf99hqlc62hz7jdhgs3skrhpqk",
+        "amount": "78703"
+    },
+    {
+        "address": "juno1e9jwge5j6lp3lmpvsht0a7aqsqp9ct43zpm6gh",
+        "amount": "45840"
+    },
+    {
+        "address": "juno1ea4dj5mdc5zhpv2f6klzfquk43j75sks0phmcf",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1eduu6rk03m7tqthj4weuvwqmwjxmh52wjasa0d",
+        "amount": "135824"
+    },
+    {
+        "address": "juno1efaz2n6zqrhjr6tnwgmppsckz4hmlnfxjf27ks",
+        "amount": "30146"
+    },
+    {
+        "address": "juno1egd7nfp2fl8sl3d595nhglgyku7tkfuh8d4lwr",
+        "amount": "94275"
+    },
+    {
+        "address": "juno1entg586tfr2c2pq0fhdypt7p7pkyk0wnq255yv",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1epmuvz3agsg6gdnwke4lvyz4aqw7ux840hwj2k",
+        "amount": "38196"
+    },
+    {
+        "address": "juno1etpnvjn6swaf44muq5f72u0y7htp56smfgwwps",
+        "amount": "24838"
+    },
+    {
+        "address": "juno1ew54u0sc6gqkdujhsm4wd06mg6zfypnh2nevs6",
+        "amount": "36672"
+    },
+    {
+        "address": "juno1f0ezw9wmw2dje9hahr0xjzsspp2h674ugm9uln",
+        "amount": "916"
+    },
+    {
+        "address": "juno1f0v5af2nhemuarhjjchu3gq0v0vdmcl08e296y",
+        "amount": "330049"
+    },
+    {
+        "address": "juno1f0x5x8hjprgumju9q4axf53pvwyk9m6tcaqxrw",
+        "amount": "275"
+    },
+    {
+        "address": "juno1f2um9qzykw3qmhyvrz7t36fkj7g0gvqlkxnynq",
+        "amount": "623507"
+    },
+    {
+        "address": "juno1f4pyghxn647qvaqwcj6adcywetu8tn6zqnmttp",
+        "amount": "150062"
+    },
+    {
+        "address": "juno1f5u7ktfzwdtx58rlnlma5plctcxvk34wlg8h9y",
+        "amount": "58"
+    },
+    {
+        "address": "juno1f8l85nmpmcsn8es8cxq2tmu3dy7hf85h6sujjy",
+        "amount": "42264"
+    },
+    {
+        "address": "juno1f8x74y7vuj6980h9ljx2gmrepgl732t9axrqgv",
+        "amount": "15115"
+    },
+    {
+        "address": "juno1f9v6a6qnylvz7m2aqnf45la5cjy6avhvty23ag",
+        "amount": "3245"
+    },
+    {
+        "address": "juno1fe37kgvtshfdl75r7lsj86l8xm6jvya03ldgqw",
+        "amount": "252085"
+    },
+    {
+        "address": "juno1fj8d32l98legw3l23ag5gl6ulc64akfr5qs6m4",
+        "amount": "3667"
+    },
+    {
+        "address": "juno1fjn0vr4dma5crx2rctv6vmfwxx0v0vrdye9xv6",
+        "amount": "137520"
+    },
+    {
+        "address": "juno1fmmxud5cegx8rf7tjjlx4tkh48xvxzpgjrw0rt",
+        "amount": "18"
+    },
+    {
+        "address": "juno1fq9qrrwldtczqnkh0lnddtgmeyj55tqlvx4nx5",
+        "amount": "38887"
+    },
+    {
+        "address": "juno1frh2rc78xlyvfa2yfcnxgnxpcd2ssc0u7v9s93",
+        "amount": "110193"
+    },
+    {
+        "address": "juno1fw0qlvjr68pqy5nrckqspklkqshd4mp5k7fgmk",
+        "amount": "183"
+    },
+    {
+        "address": "juno1fx8w4ptv2sklkda6ud6gl8qz2ye6hn4t342rdu",
+        "amount": "35712"
+    },
+    {
+        "address": "juno1g28t39fndhmm7n3ckhnlp2sxkz68wy55q284sj",
+        "amount": "65499"
+    },
+    {
+        "address": "juno1g5ur4lf7hgfjuat9zd5v6r0v073yzh9rn83x4p",
+        "amount": "21905"
+    },
+    {
+        "address": "juno1g6zszf3qluf4g22fhenvz02ad43kaz5efp9787",
+        "amount": "152189"
+    },
+    {
+        "address": "juno1g94qsft6gvv0zp88q25lel0ggs25uqpmscu8la",
+        "amount": "983639"
+    },
+    {
+        "address": "juno1gc7q4jmcpa6mfupqrc8wvgyefy5q43hq2t75f9",
+        "amount": "75588"
+    },
+    {
+        "address": "juno1gg4kml45cdcw4x7edp832all6fdepzr4k9gtah",
+        "amount": "40767"
+    },
+    {
+        "address": "juno1ghvdfm50yds2nsjqcy7en884d0403mnu5ztv9z",
+        "amount": "366"
+    },
+    {
+        "address": "juno1gk737smj58de7pqhw8f5ud4kknjup2fvk3twyr",
+        "amount": "201696"
+    },
+    {
+        "address": "juno1gqh8znymursj37jw456q80f8hnnuqhrwdsv2l8",
+        "amount": "649261"
+    },
+    {
+        "address": "juno1gt5jvdtkuuqkupek603lj0wad6z7p54a7ju9dw",
+        "amount": "412488"
+    },
+    {
+        "address": "juno1gwnfjj65zhxmtnpxzy625cpx692lfjuwwac3e2",
+        "amount": "45840"
+    },
+    {
+        "address": "juno1h6p45cmmkc77p2kx0zwm5hpdd69el5rtt7tkj5",
+        "amount": "18"
+    },
+    {
+        "address": "juno1h9q7xhs906tmfsn997a0adykp42r4pz5kes0xr",
+        "amount": "118775"
+    },
+    {
+        "address": "juno1hcj67a0jfmy3pk4nth37zc2jntw5my53jpxdl5",
+        "amount": "84341"
+    },
+    {
+        "address": "juno1hcxwezx7u6zhrggatajpft8pmh3k3jn679syy8",
+        "amount": "3439"
+    },
+    {
+        "address": "juno1hd59wrvtwz3cc5fk5k5quaezvxvuuxxmfccea5",
+        "amount": "169"
+    },
+    {
+        "address": "juno1hdrp5d7pgj7u63pum4u5k0cck7fhlrsewnkwpq",
+        "amount": "201"
+    },
+    {
+        "address": "juno1herell4dyfd50fwtvsyhu77cnvcr43mqjep9x5",
+        "amount": "171369"
+    },
+    {
+        "address": "juno1hheryepdqyamzy4vsh7alcjlwq5k0kfmjjy4fp",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1hjlszpuk7slc06e6rzy4edfz5aqya7398w9djk",
+        "amount": "1504317"
+    },
+    {
+        "address": "juno1hls4rdk5c9c8ff2cdgrjnu3x4dg0v75n0g73jw",
+        "amount": "892501"
+    },
+    {
+        "address": "juno1hmyz62l08pzy8zghqsasjqsrnqnlpehfwyktfw",
+        "amount": "151545"
+    },
+    {
+        "address": "juno1hq36tl6sfwlwehxs2k5zn8ryxmvm4a47msk43x",
+        "amount": "9168"
+    },
+    {
+        "address": "juno1hqfqq03th7ytsfrq87m8vc0r36venj3gqm6l74",
+        "amount": "55327"
+    },
+    {
+        "address": "juno1hred7tch78xhjkrmsggwu246qhl52h597zsmef",
+        "amount": "2294"
+    },
+    {
+        "address": "juno1hvjrelsghx3cey44hr7cdewuc20j06q509s6u0",
+        "amount": "116804"
+    },
+    {
+        "address": "juno1hvspu9u6su5dzv77hpwewfksnqts5vr9zqklh8",
+        "amount": "303"
+    },
+    {
+        "address": "juno1hx5eeyjep4dwgckys9xx34akvtpy4ga3wmjpwc",
+        "amount": "83636"
+    },
+    {
+        "address": "juno1hxyaa7h6avr0tttgrupqjcszmglvh7k96qamxf",
+        "amount": "9168"
+    },
+    {
+        "address": "juno1j5cephkjpxqt4dekw0pa0ly6y6pqv8wcrs0u86",
+        "amount": "11969"
+    },
+    {
+        "address": "juno1j84sq0ucjnmgyjvp9ckjpuk4cjyj5s5nttrqyh",
+        "amount": "16491"
+    },
+    {
+        "address": "juno1jddlhv9kprfvuztqsesy3xcec2h67wwvt4f2z5",
+        "amount": "4584"
+    },
+    {
+        "address": "juno1jkl7tkgaq5vky4dhafyrvqzjtxhtcvj7u90kta",
+        "amount": "3715"
+    },
+    {
+        "address": "juno1jlansk5dzdps0yzm75vry070ugfarkqdfp5eed",
+        "amount": "1861"
+    },
+    {
+        "address": "juno1jnpevf3zg3wc3vyqssxu96lz899g00skgnlg6x",
+        "amount": "243174"
+    },
+    {
+        "address": "juno1jnshptet6chflna8aha2rk90230lylst0qv0y7",
+        "amount": "2370104"
+    },
+    {
+        "address": "juno1jrmzl2gf05estqtvx6zud40psqet5s8vffzppq",
+        "amount": "22003"
+    },
+    {
+        "address": "juno1ju6eccjf44gkfle3zxdut83lhwnqs7xtlnfs7z",
+        "amount": "370087"
+    },
+    {
+        "address": "juno1jw43fffuzpnrzhceplywyyhp2mpnxpyn8fq8cc",
+        "amount": "141815"
+    },
+    {
+        "address": "juno1k2nspyvjnwrxtnwpadmcjxp0wpw79pvhj8g9h2",
+        "amount": "12852"
+    },
+    {
+        "address": "juno1k2ud7ll5efapc57uyjzw3w6twpu9l8ly6ytl08",
+        "amount": "197092"
+    },
+    {
+        "address": "juno1k5ng4222wprh8qc37d8aspw8lcljn8vdfhxt5l",
+        "amount": "345618"
+    },
+    {
+        "address": "juno1k66ngltrgr9eahmf9vc6rxj2jtsc7fpz063xva",
+        "amount": "75218"
+    },
+    {
+        "address": "juno1k6exxns30l4ju4guqz0wcpjwfyy8qdyfmdmcxn",
+        "amount": "272"
+    },
+    {
+        "address": "juno1kdprg7acyq4t3vzcjdj86m0m2ttyrkrj8jp8gg",
+        "amount": "148346"
+    },
+    {
+        "address": "juno1kjyk39gqxqeh7xam6ejc7l3ng6edgsgnlm9jmj",
+        "amount": "91680"
+    },
+    {
+        "address": "juno1kl80ymd3tjsvtcg9ncmxfdz2wu5ynlpvgx238x",
+        "amount": "22168"
+    },
+    {
+        "address": "juno1kp8r0rhs4fxzs8p5pvp37gxmautv5nwrflz7pq",
+        "amount": "76606"
+    },
+    {
+        "address": "juno1kqs34z6sls79pxukqhaxrwav5akmv3v7e60ywk",
+        "amount": "2750"
+    },
+    {
+        "address": "juno1kr22pmwls4mkm5449cgtfw9qv6f9hq3tc0e9md",
+        "amount": "118383"
+    },
+    {
+        "address": "juno1krnpdgz6q0v7gax08wfjlzglspjtk5lnghvn2c",
+        "amount": "354859"
+    },
+    {
+        "address": "juno1l4f263t37ssxyxd4sa5qelcmvz06hgtfmnd8e6",
+        "amount": "160302"
+    },
+    {
+        "address": "juno1l5l9xx4xgdrylqjrmsdesmcwmsdk6gztdq56wy",
+        "amount": "46523"
+    },
+    {
+        "address": "juno1l5x5tzg9v723nurtvkppst9e0q3lmknca5qa3w",
+        "amount": "10029"
+    },
+    {
+        "address": "juno1l67m0gefkrvq0x78kf7fpqld3j4yp5un82qdj6",
+        "amount": "164565"
+    },
+    {
+        "address": "juno1l993vmhfzhc4fxp4qaczwyvvh28jmlzm3fclps",
+        "amount": "10019"
+    },
+    {
+        "address": "juno1l9l907eapj3kwnrr3vss7wvhj63zalkl53qu47",
+        "amount": "23455"
+    },
+    {
+        "address": "juno1lar3zyt6ryzg7p9dfzchufstnj2jq4h6rgf7lx",
+        "amount": "123168"
+    },
+    {
+        "address": "juno1lc6qf3ywwcje9rfm4hknpasyx4rcmeeu8af5k4",
+        "amount": "2451"
+    },
+    {
+        "address": "juno1lf87zxzg4dta9az0yeq4vecg3d5aal7e45ls2u",
+        "amount": "36852"
+    },
+    {
+        "address": "juno1lhah2e76t0mk8x2v9djlfzh979nddwmgs8ghgd",
+        "amount": "19668"
+    },
+    {
+        "address": "juno1llpknhkdp6ttcurpd0qf266d6zt5ypr84j3qa2",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1lmyaxh38jzetmzpr2jtq82qt9wkr9mmur92e33",
+        "amount": "1254"
+    },
+    {
+        "address": "juno1lnql2szlqyxctqw5dcsrnqs6tpk7eplnz72p2l",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1ls76wqkug9h90gmaqcy24vd7hddgvugzfrnrqy",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1lskam4hwal3cjuprw5aulyg89ymt872f0ny6lg",
+        "amount": "386707"
+    },
+    {
+        "address": "juno1luatkh3z8ukgnryuuywteu2ngwwd9t7mxp09m6",
+        "amount": "18336"
+    },
+    {
+        "address": "juno1lwtp0c732f9cv5rzyv9jyrg3a4vt2mjz288y0z",
+        "amount": "35980"
+    },
+    {
+        "address": "juno1lx7n87vw4mey25jllugr6txtv8wtfcvkqyxvja",
+        "amount": "5155"
+    },
+    {
+        "address": "juno1m3mf2t06jz8u5vf9zx8rahwfdnes9x3nqchfsg",
+        "amount": "292297"
+    },
+    {
+        "address": "juno1m5atd6fm6zh3rtekjrtetve2c5es6f9exq6kaj",
+        "amount": "13935"
+    },
+    {
+        "address": "juno1m7fp3yd2r5h2u4uu02m6nstceranss8vv72j8g",
+        "amount": "20169"
+    },
+    {
+        "address": "juno1m879cpf8pxaqexj8jprlhv7dhs7hs6sk5uv5qh",
+        "amount": "366"
+    },
+    {
+        "address": "juno1m87v8nlrxlnezy7cdh5u7ecjjvk8l3cw73u2dp",
+        "amount": "293998"
+    },
+    {
+        "address": "juno1m975n260754sqjh44xlak0e82x94qhne3z97jp",
+        "amount": "983639"
+    },
+    {
+        "address": "juno1m99yd3hr73xufvfftmmr83v2qwszrymxxxcgql",
+        "amount": "18354"
+    },
+    {
+        "address": "juno1mdtpe7a87gruntmj9exvvhjt2g6nkw2tekhtm7",
+        "amount": "58060"
+    },
+    {
+        "address": "juno1mg7auf2p02vufuq5ngcujn3e2en8g0zflm4rmk",
+        "amount": "75539"
+    },
+    {
+        "address": "juno1mm8huzhpk5tx5vgj877zse37c2zdymzl462sqh",
+        "amount": "642797"
+    },
+    {
+        "address": "juno1mqucr2yr6tg760vt99p55hazh2s555khqfyzp5",
+        "amount": "46579"
+    },
+    {
+        "address": "juno1mtaaznrs6nrvm8y68wetcshcm6na6sk0h9jrn7",
+        "amount": "240350"
+    },
+    {
+        "address": "juno1mv0052e7r6s09f5t9xsqf00nj3tqsgt9gxtj5m",
+        "amount": "103436"
+    },
+    {
+        "address": "juno1mvk8603ksv5spt9epgruemcqdh3qruze8ls8ew",
+        "amount": "183360"
+    },
+    {
+        "address": "juno1myk5n36d2wnrhzqv08rcral5384jf9edtjpqhp",
+        "amount": "276156"
+    },
+    {
+        "address": "juno1n0h54c882xqalqeks8vy45ftl2w74naqgzan2t",
+        "amount": "36672"
+    },
+    {
+        "address": "juno1n6xsx2f0ra2e7t7j0xz6k8cwa55k6p0yzxdg6m",
+        "amount": "165024"
+    },
+    {
+        "address": "juno1n8j9xve22sh5arf2kfdtdde46udztadapjn4fy",
+        "amount": "725518"
+    },
+    {
+        "address": "juno1ngqzez7sexvxugw647nqyxmsyc9a8ve4lw8ffr",
+        "amount": "248545"
+    },
+    {
+        "address": "juno1ngwd47pfleskhvvthd8vsv0gfg7ulff238fzju",
+        "amount": "265872"
+    },
+    {
+        "address": "juno1nl2rrkjlwt5q75sc0e25dcf9y3d3a3mn0vlka0",
+        "amount": "3667"
+    },
+    {
+        "address": "juno1nllnffudccy2f6wrfv4djaadsvqsr2law7k0pc",
+        "amount": "9168"
+    },
+    {
+        "address": "juno1nnhlu7j6r4e2efuaydyvdmqs5plp963ede0l8g",
+        "amount": "301169"
+    },
+    {
+        "address": "juno1nrva4m48xvh5acajqqgeunhxmlnjzuu28sv935",
+        "amount": "275"
+    },
+    {
+        "address": "juno1nu5jfcwjcwaqxea9m56w2gwnyaugenylpwsyaz",
+        "amount": "36672"
+    },
+    {
+        "address": "juno1nz0szznjs6xp6y96qprcye5me5u09qpcs6zugu",
+        "amount": "3667"
+    },
+    {
+        "address": "juno1p80y4t4ct57sv70kmdyxalmrkhp6ssdtulj0d8",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1p8eyq7tj9dxpvm9fwcs5x9eekwh4hstv78n90f",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1pd0fv9vwdzkvullp44t5n2nhdzv9cd6s6zramz",
+        "amount": "5937"
+    },
+    {
+        "address": "juno1pljypmn32fmm2gqek6423teszw6qdedqt0ccl2",
+        "amount": "18354"
+    },
+    {
+        "address": "juno1pnu57wa6jut668mx3axntvwlaf6leddjnn09mh",
+        "amount": "482"
+    },
+    {
+        "address": "juno1ppk3ascqs5zrt9qqg3y579lp005uvnkhelwhy5",
+        "amount": "260342"
+    },
+    {
+        "address": "juno1ppwmgd463a5ka8ea846gu0jmwyxcjpyrmdtgz5",
+        "amount": "5500"
+    },
+    {
+        "address": "juno1pswe4zg8agsn8vjqtp5y7p69c2uu9znc943a2p",
+        "amount": "183360"
+    },
+    {
+        "address": "juno1pvcm3nx4qtuljps2uu6c7teaqmzr9jvlmnjl0t",
+        "amount": "960109"
+    },
+    {
+        "address": "juno1pzwel4a5ft2256au8xqy89k04yxavgs5c4sqq6",
+        "amount": "25562"
+    },
+    {
+        "address": "juno1q2cxn0ud3utagllzj2zmk20ss7kwkzp4dsjuq6",
+        "amount": "50043"
+    },
+    {
+        "address": "juno1q6url5w7qju84mcppjcyswf0e72u04k5yvdcug",
+        "amount": "22535"
+    },
+    {
+        "address": "juno1qe86f8rt3hlzsspf7efq3h0c3dlsyfqwa3ms82",
+        "amount": "91680"
+    },
+    {
+        "address": "juno1qj2787n872jn8t2zhreac27lh0hlpq6znef40x",
+        "amount": "550081"
+    },
+    {
+        "address": "juno1qj3jetcn87kg6d2lx42gpjhawr4lphvkwtus40",
+        "amount": "916"
+    },
+    {
+        "address": "juno1qly96sy3yklkwv6cf4he5ves4qu8yn58v6sm42",
+        "amount": "7334"
+    },
+    {
+        "address": "juno1qm8ttsqm99uucnjqg7h2qzlrl6rxcay785zsmw",
+        "amount": "24617"
+    },
+    {
+        "address": "juno1qrg60yrf7avsjegk0hrewecydu5atzrd3lkfky",
+        "amount": "230554"
+    },
+    {
+        "address": "juno1qsp85ghzfq5af43veaa6vm8xglun0fx5ftdsfv",
+        "amount": "23243"
+    },
+    {
+        "address": "juno1qwqe792ag6p0fg44nk3f2qcredn4lu695qr6h6",
+        "amount": "563948"
+    },
+    {
+        "address": "juno1qz9ml20945genaszrxvk7zxch6cn8jc2ydd6m2",
+        "amount": "33383"
+    },
+    {
+        "address": "juno1r87nyzf79seyjvt6f6ygqn9f6ncxnh3ulu0xrg",
+        "amount": "16455"
+    },
+    {
+        "address": "juno1r93x77sa95k2at66mp28uxlr97s3zhwa2nnls4",
+        "amount": "47673"
+    },
+    {
+        "address": "juno1r9mekllcz0fqdt0w2lstckw9exxtvzpqp6g9ye",
+        "amount": "515182"
+    },
+    {
+        "address": "juno1rf5tezu2x62g9dusalluzj85vwdv0xrhcgymmx",
+        "amount": "91680"
+    },
+    {
+        "address": "juno1rg2qwrqd5t9u4l0eyxzav3ugq4rd3v68jaclqv",
+        "amount": "183"
+    },
+    {
+        "address": "juno1rk490454jzu8cnt5alh72ms0f8y697vqdulgld",
+        "amount": "7671"
+    },
+    {
+        "address": "juno1rkpdlluj6a7ksz5jk7zxu8zlurd9hkm4p5f6vv",
+        "amount": "20123"
+    },
+    {
+        "address": "juno1rlw90rdcm46eq7zxe5dazjsjtdk7vek9q64lkl",
+        "amount": "108182"
+    },
+    {
+        "address": "juno1rqjrpkntamtyjf0yvswctmzdkqftf5z9ntpnj5",
+        "amount": "18336"
+    },
+    {
+        "address": "juno1rsxgr5fdc8t9yqv7sqk9etdlw772d5ezp8wyxg",
+        "amount": "109437"
+    },
+    {
+        "address": "juno1rsyp9aypxa8tmgtc7rucqyssl6muf887vhqzsv",
+        "amount": "96858"
+    },
+    {
+        "address": "juno1rt5a5zjqhg0yrgf2mm7j68pxxwglt5v02zzuh7",
+        "amount": "81719"
+    },
+    {
+        "address": "juno1rx5ktcvjlzqr06wkghwhgwwaq805l4q4kjkuuh",
+        "amount": "1645593"
+    },
+    {
+        "address": "juno1rxg6dde5u5n4yvl5urr8tdlysf2f3r2h4zvtkq",
+        "amount": "229200"
+    },
+    {
+        "address": "juno1ryphxjvgrre5ym2wfw7l34s87y9p7quch22jmt",
+        "amount": "103184"
+    },
+    {
+        "address": "juno1s3xq4zq7w3tl2knr9c2demg3v00zwnzexecvku",
+        "amount": "5500"
+    },
+    {
+        "address": "juno1s43d82z8l7u5nlv8j93h7ems8l6nwxsmd78fry",
+        "amount": "183"
+    },
+    {
+        "address": "juno1s4uaxhummgqngau80z6she8558t4h02ju7lp9f",
+        "amount": "24753"
+    },
+    {
+        "address": "juno1s79z3d8c7n3kymnswf6vqv245lmxxetj9gr5x6",
+        "amount": "45840"
+    },
+    {
+        "address": "juno1sc5wpdfcgqe5sjaav002g5uung9u5erszf5f3c",
+        "amount": "1259"
+    },
+    {
+        "address": "juno1sc7dkycl38yv66wrw320fsm7tg9zycgvc5rwmt",
+        "amount": "384"
+    },
+    {
+        "address": "juno1sdyqpt0y29eg2fzse85cd7r0klahqufuhdgp2k",
+        "amount": "91680"
+    },
+    {
+        "address": "juno1seyua7q4tswljgraf87z3y5670uye02qqa6j8r",
+        "amount": "19912"
+    },
+    {
+        "address": "juno1sghqztvgjv3ug6ltpvvwwyhpt35u7hu8x9skc9",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1sjn3v4lz0g0afy4s6gsx4dxdnh33f79mynny35",
+        "amount": "3071"
+    },
+    {
+        "address": "juno1skj3t6lp33lfagt96q80ru0yy7cvzzj6c0grhv",
+        "amount": "44126"
+    },
+    {
+        "address": "juno1smak362ve6qk3d8grw4um4gcz3frflt0wtevdp",
+        "amount": "22397"
+    },
+    {
+        "address": "juno1ssmeg0jhyr57kwjlt508lgz8jeqsfx857q7n40",
+        "amount": "4235"
+    },
+    {
+        "address": "juno1sxegadzxwzzmd0q5s05cmsfxhshkwe9yj25kl3",
+        "amount": "105431"
+    },
+    {
+        "address": "juno1taepq5kp4t9xnlqk8appm5apxeemhrwsf745n6",
+        "amount": "36672"
+    },
+    {
+        "address": "juno1truhswn48uzny068ts2vmtsh7pj966ma6g7scf",
+        "amount": "2750"
+    },
+    {
+        "address": "juno1tvdl4e9lka08ngpwhywt3x2zlm3m68t3tg5upv",
+        "amount": "146245"
+    },
+    {
+        "address": "juno1typ45xcrpnlt2j5rzc8pmhfp4u6pglm0744fvj",
+        "amount": "939793"
+    },
+    {
+        "address": "juno1u5r0j0jytzk2c5z5wswlzy4h385elwwxmm4nwk",
+        "amount": "4584"
+    },
+    {
+        "address": "juno1ugd23u5u5l8u2km4s0hwu86jd5av0zwfrxwfg4",
+        "amount": "30357"
+    },
+    {
+        "address": "juno1uhryuw296lqgaz3j22mhc8aym0vegrevq7cpls",
+        "amount": "7756"
+    },
+    {
+        "address": "juno1uj7xf8hzm2nxhqvwv3h7zhgypffr2ksw4mxx4q",
+        "amount": "1794532"
+    },
+    {
+        "address": "juno1ukauy82r4se4h82rkpe8ej7ksd8gadj2fwrpma",
+        "amount": "18"
+    },
+    {
+        "address": "juno1um09ya5wp5uq56lsk4fgjx69u00r0ehfs4z6d9",
+        "amount": "674"
+    },
+    {
+        "address": "juno1umrj4kaksvjdptsj0pwngngdnwh62pgd556vr9",
+        "amount": "7942"
+    },
+    {
+        "address": "juno1unmn2husa2r5gd23np57d4caadk94ahuqj2dkd",
+        "amount": "38271"
+    },
+    {
+        "address": "juno1up0q73ca5umukypd4uzu7ysravuf4xnqw4hxnh",
+        "amount": "11001"
+    },
+    {
+        "address": "juno1urgxmkx2wra6adrx7chlql342dgqrqat2pmnt7",
+        "amount": "256704"
+    },
+    {
+        "address": "juno1uz07k6e0txmv3agfczp4yqm7zsl32fkw4qahxz",
+        "amount": "36672"
+    },
+    {
+        "address": "juno1uzmgaw080597r2kcegpm7svl70h48cn6w032ua",
+        "amount": "31513"
+    },
+    {
+        "address": "juno1v0sgf2mev5k6ad5zd2a59jc9vwjtgpw87m8ev3",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1v2ytakyw3nlj6yuuc4z2rwcwwszwefnacyj55z",
+        "amount": "23003"
+    },
+    {
+        "address": "juno1va2xq5d9lj5v8aakxawgne3chn9phzwlp8hu0m",
+        "amount": "91680"
+    },
+    {
+        "address": "juno1vatkhzjrzvkt259wn37r30z2z7dx9vghw950cx",
+        "amount": "24753"
+    },
+    {
+        "address": "juno1vcnpdp4zevzggd8eelltyh3559wmrsxjkwqlhq",
+        "amount": "60312"
+    },
+    {
+        "address": "juno1vk6z2aa4hwf5kkd07248q8sm5xqzdduekrupq4",
+        "amount": "120010"
+    },
+    {
+        "address": "juno1vmx85r4h6s6x33wa53kyusracrq6r3nursjk20",
+        "amount": "131608"
+    },
+    {
+        "address": "juno1vpdehzac9n8lz22xhz09kstttf8kedp2tnvx5u",
+        "amount": "880131"
+    },
+    {
+        "address": "juno1vq4nywwslh4jcupzyzsr07a9z4sdnhq730hn93",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1vqjnd6pwl2e35h0a9dc9kl5tvd0ev6462j6fwc",
+        "amount": "43223"
+    },
+    {
+        "address": "juno1vth4t0n85uqshc0dvqgcqxupgjy4g4xt7le50c",
+        "amount": "72121"
+    },
+    {
+        "address": "juno1vtvuucwh7v0ajk59evme7qxl4dslv5sk2qs5xa",
+        "amount": "1200"
+    },
+    {
+        "address": "juno1vv2nm8tvpyx88r07hx5x4zyctpkztp6yx9uwzu",
+        "amount": "1583541"
+    },
+    {
+        "address": "juno1w0nfe5ksec02pr5l5fyafp3yf99lczfj9au0ks",
+        "amount": "1833"
+    },
+    {
+        "address": "juno1w6wu9uya8v5fvwt39vk4q57wj5d2v4hwrugkr2",
+        "amount": "31572"
+    },
+    {
+        "address": "juno1w7y3vd7q4xavtntt5tgkgm88wcv3j2rk5tcv8h",
+        "amount": "3677"
+    },
+    {
+        "address": "juno1wclhrv0v8trutnjgr9u8ntjcx6fk8zar6ehey5",
+        "amount": "11455"
+    },
+    {
+        "address": "juno1wd9s5sftqz287jfs9vae6xehacudxla4wq0r24",
+        "amount": "71495"
+    },
+    {
+        "address": "juno1we479ckxtxmyafdy9cga3szd4ve33s42tt4j7y",
+        "amount": "18336"
+    },
+    {
+        "address": "juno1wmh39tzs8ycyfdqm4p5337dnzzu7npm00slana",
+        "amount": "60131"
+    },
+    {
+        "address": "juno1wpprung6cdr0xm8wsd69fg9ftap2efqsugqtav",
+        "amount": "366"
+    },
+    {
+        "address": "juno1wray4k9ct5lddxvyrc4f9cd34kqlu8malush6c",
+        "amount": "31"
+    },
+    {
+        "address": "juno1wrue4fxfq6f2ffatq5r59faunkfqedkscp5pwe",
+        "amount": "192646"
+    },
+    {
+        "address": "juno1wsjfxqg6pnuv3vlud8ct3ggyxtj08g9rsu50qy",
+        "amount": "149796"
+    },
+    {
+        "address": "juno1wtp7zdykn7te5z2m89se2zdc9qeuujvvqspjpt",
+        "amount": "137120"
+    },
+    {
+        "address": "juno1wu8c7zwew8gdnnvcxh45w9z3d6vrz8k4uw2apy",
+        "amount": "219245"
+    },
+    {
+        "address": "juno1wv8s3cflrukukpe8wt0t246ewamshqlnpw2pfa",
+        "amount": "805845"
+    },
+    {
+        "address": "juno1wvpqyj0fjhj0sqc4lcnadkp8uuyhct9m8z9229",
+        "amount": "2002262"
+    },
+    {
+        "address": "juno1x8jg3t0u82ptwa2ttnf26mjjt9xte8zcf0j360",
+        "amount": "71524"
+    },
+    {
+        "address": "juno1x8pt3hdf47fshryalrkvfcu8hzw0tly62kuy32",
+        "amount": "229332"
+    },
+    {
+        "address": "juno1xa0wyz35ltc6rl3d23yp553wg8hfxxcv3py03g",
+        "amount": "118616"
+    },
+    {
+        "address": "juno1xc8tjcmhfdn7ld2qgcc6s92r3wsp2x6hjxnj4y",
+        "amount": "47016"
+    },
+    {
+        "address": "juno1xjfgaw24t5yl094l72r9wdz03tzhpdajsk9rce",
+        "amount": "641780"
+    },
+    {
+        "address": "juno1xl4t237tlrl576n0ff2v2dfg5v8tyqfdwt3h4d",
+        "amount": "131493"
+    },
+    {
+        "address": "juno1xlu8hzhcqp67s2w8hm6624aj6lecjkwyj3c25z",
+        "amount": "52063"
+    },
+    {
+        "address": "juno1xpjenqlc2x8e67c9zcjp2cqskxwdzm99mz4jdk",
+        "amount": "228704"
+    },
+    {
+        "address": "juno1xun3qq5veudusxys2rygxkduqld3yq9cwkqd0z",
+        "amount": "99166"
+    },
+    {
+        "address": "juno1xwaqtp5q3cpf9tykpl3e437x3zfd3cya05s8r7",
+        "amount": "144172"
+    },
+    {
+        "address": "juno1y0avy9vnrgflmydzpe3y0ndl8fz8djzl77jzns",
+        "amount": "10785"
+    },
+    {
+        "address": "juno1y2ptynyf78vjl7agjj7e7x9t2k3gwgv59jp7pf",
+        "amount": "366721"
+    },
+    {
+        "address": "juno1y7frr6e8u8w0u2gaucmqc0tk5s7ltsy4xejcf5",
+        "amount": "91"
+    },
+    {
+        "address": "juno1y9svw75hdjfpuudnpjmkzt37m0knn5u95z2r4n",
+        "amount": "73344"
+    },
+    {
+        "address": "juno1yav3eaxc8l9vtn5cn4fsr629nk00fszdur8dlv",
+        "amount": "1130"
+    },
+    {
+        "address": "juno1yee8u2rfp59k4t0prdtafrthkye5rnmcnnrv5c",
+        "amount": "75386"
+    },
+    {
+        "address": "juno1yh24lrqkz9d74dqn660wrhca539cuzude5q7cc",
+        "amount": "94915"
+    },
+    {
+        "address": "juno1yjq0n2ewufluenyyvj2y9sead9jfstpxdfuphv",
+        "amount": "198441"
+    },
+    {
+        "address": "juno1yk3md3meme3ntlaa23kskdhjmz5taw9p8w7f67",
+        "amount": "168699"
+    },
+    {
+        "address": "juno1ykxelnagzm87skuwrgwvklrueasdumvur0r0ty",
+        "amount": "91680"
+    },
+    {
+        "address": "juno1yng27xvqv0z7uszrzvcfkggdpnxgartquj2sad",
+        "amount": "12112"
+    },
+    {
+        "address": "juno1yvfte7tlxzm8c2s69a90mfqu63qfhzsme9l9gh",
+        "amount": "18"
+    },
+    {
+        "address": "juno1yw9cgekvd6pdutwj9c2n3vcg29e3uzcs9nplp4",
+        "amount": "41411"
+    },
+    {
+        "address": "juno1z0ysgv8w09mht284m4p20dgqckxd4lg2g6fvpp",
+        "amount": "565"
+    },
+    {
+        "address": "juno1z35x9dzrsgc0fzg2j3dp35jtjr0ytd447ypq2y",
+        "amount": "293377"
+    },
+    {
+        "address": "juno1zhae93zee8mhvwuy98dlmh8prphnda6ufn98vm",
+        "amount": "132503"
+    },
+    {
+        "address": "juno1zn0fk5z4pcsh8cxf3lts2pw3498507z86jhnn5",
+        "amount": "10572"
+    },
+    {
+        "address": "juno1zsuh63f4axsxzsmceen9ccd4309fee6a8su48t",
+        "amount": "1377"
+    },
+    {
+        "address": "juno1zv0nu0xkxvwykafdmf6hnyzw8jcwtg5r4twqee",
+        "amount": "24753"
+    },
+    {
+        "address": "juno1zvxrc0x89hykhhu2wdp8h52sjwjxrpzcmx40pg",
+        "amount": "25902"
+    },
+    {
+        "address": "juno1zwftw570zheq5scnzmm830pjmsl3d32ejpunes",
+        "amount": "366"
+    },
+    {
+        "address": "juno1zy3nxgwtw9hr99tzfaxasgwklm9ev843untdmy",
+        "amount": "183"
+    }
+]

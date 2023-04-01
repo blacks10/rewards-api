@@ -49,8 +49,13 @@ class LedgerClient(BaseLedgerClient):
         return self.staking.ValidatorDelegations(req_delegators)
 
     @retry(stop=stop_after_delay(10))
-    def query_total_staked_at_height_dict(self, staking_contract: str):
-        query_dict = {"total_staked_at_height": {}}
+    def query_total_staked_at_height_dict(self, staking_contract: str, height: str):
+        query_dict = {
+            "total_staked_at_height":
+                {
+                    "height": int(height)
+                }
+        }
         query_data = json_encode(query_dict).encode("UTF8")
 
         req_total_staked_at_height = QuerySmartContractStateRequest(
@@ -62,8 +67,14 @@ class LedgerClient(BaseLedgerClient):
         return json.loads(res_total_staked_at_height.data.decode("utf-8"))
 
     @retry(stop=stop_after_delay(10))
-    def query_staked_balance_at_height_dict(self, staking_contract: str, address: str):
-        query_dict = {"staked_balance_at_height": {"address": address}}
+    def query_staked_balance_at_height_dict(self, staking_contract: str, address: str, height: str):
+        query_dict = {
+            "staked_balance_at_height":
+                {
+                    "address": address,
+                    "height": int(height)
+                }
+        }
 
         query_data = json_encode(query_dict).encode("UTF8")
 
